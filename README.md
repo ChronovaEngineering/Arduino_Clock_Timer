@@ -1,6 +1,8 @@
 # arduino-clock-timer
 
-These files are used with the Arduino Clock Timer being developed by Hazel Mitchell and Mike Godfrey.
+These files are used with the Arduino Clock Timer being developed by Hazel Mitchell and Mike Godfrey. 
+
+The nano_clock_timer_2022.ino and mega_clock_timer_2022.ino are files to be uploaded to an Arduino Nano and Mega respectively. Note that the MAC address and writeAPIKey variables will need to be set by the user in the mega_clock_timer_2022.ino file.
 
 # Pinout
 Mega:
