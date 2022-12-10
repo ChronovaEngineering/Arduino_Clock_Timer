@@ -39,9 +39,9 @@ Mega:
 
 Nano:
 
-D2 = PPS,
+D2 = Pendulum trigger,
 
-D3 = Pendulum trigger,
+D3 = PPS,
 
 TX = MEGA RX,
 
