@@ -12,8 +12,8 @@
 
 
 //Define hardware connections
-#define Pen_sw          3
-#define PPS_pin         2
+#define Pen_sw          2
+#define PPS_pin         3
 
 
 //Variables setup
