@@ -52,7 +52,7 @@ void setup() {
 
 
 void loop() {
-  tester(); //Comment this out when you want to use the connected PPS and pedulum
+  //tester(); //Comment this out when you want to use the connected PPS and pedulum
 }
 
 
