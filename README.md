@@ -18,7 +18,7 @@ The Nano is detecting the following events:
 2) A second rising edge from the light gate, as the second pass begins. Set Pen_state to 2 and start a pass duration timer (save the time to Pen_Start).
 3) Use the loop to check when the pendulum has left the light gate and stop the pass duration timer (save the time to Pen_End).
 4) Wait for the PPS pulse from the GPS signal.
-5) Calculate the offset between the light gate pulse and the PPS signal, as well as the pass duration, and send it to the Mega.
+5) Calculate the offset between the light gate pulse and the PPS signal, as well as the pass duration, and send it to the Mega. Reset all the relevant variables.
 
 # Pinout
 Mega:
