@@ -52,7 +52,7 @@ void setup() {
 
 
 void loop() {
-  tester();
+  tester(); //Comment this out when you want to use the connected PPS and pedulum
 }
 
 
@@ -102,10 +102,11 @@ void PPS_trigger(){
 
 
 void sendToMega() {
+  //Sends the phase offset, followed by the pass duration to the Mega. 
   char buf[50];
   ltoa(Phase_Offset, buf, 10);
   Serial.write(buf); 
-  Serial.write("v");
+  Serial.write("v"); //Arbitrary character to separate phase offset & pass duration
   ltoa(Pen_Pass, buf, 10);
   Serial.write(buf);
 }
